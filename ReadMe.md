@@ -11,20 +11,15 @@ LuaDec is free software and uses the same license as the original LuaDec.
 Compiling
 ---------
 ```
-git clone https://github.com/viruscamp/luadec
-cd luadec
-git submodule update --init lua-5.1
-cd lua-5.1
+git clone https://github.com/fitzdotlol/edluadec
+cd edluadec
+cd lua-5.3
 make linux
 cd ../luadec
-make LUAVER=5.1
+make LUAVER=5.3
 ```
 
-If you want to build it for lua 5.2 or 5.3 , just replace 5.1 above to 5.2 or 5.3.
-
 There are also project files for vc2008, tested for vc2008 and vc2013.  
-Before compiling, make sure there are correct sources in lua-5.1 , lua-5.2 or lua-5.3.
-
 
 Usage
 -----
